@@ -1,0 +1,28 @@
+
+.logo img{
+    height: 150px;
+    width: auto;
+}
+.nav-links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: fixed;
+    top: 100px;
+    left: 20%;
+
+}
+.nav-links a{
+    color: var(--background);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-links a:hover {
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    
+}
