@@ -1,7 +1,7 @@
 export default function Home(){
     return /*HTML */`
-   
-        <div class="tilt-card-container">
+    <div class="home-page">
+         <div class="tilt-card-container">
             <div class="tilt-card" id="tiltCard">
 
                 <div class="card-glow" id="cardGlow"></div>
@@ -9,15 +9,19 @@ export default function Home(){
                 <div class="card-content">
                 <span class="badge">Frontend Developer</span>
                 <h2>Therese Camilla Nordnes</h2>
-                <p>Jeg brenner for å skape intuitive, lynraske og universelt utformede Single Page Applications.</p>
+                <p>I am passionate about building user-friendly websites with a strong focus on functionality and clean, reusable code tailored to every need.</p>
                 <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
                     <span>JavaScript</span>
-                    <span>CSS 3D</span>
                     <span>SPA Router</span>
+                    <span>APIs</span>
                 </div>
                 </div>
             </div>
         </div>
+    </div>
+       
     `;
 } 
 

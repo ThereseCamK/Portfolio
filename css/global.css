@@ -27,6 +27,7 @@ body{
 }
 #footer {
     grid-area: footer;
+   
 }
 h1, h2, h3 {
     color: var(--text-primary);

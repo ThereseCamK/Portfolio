@@ -1,9 +1,23 @@
+.home-page{
+    background-image: url("/public/images/woman_coding_gamingroom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 55%;
+    min-width: 100%;
+    background-position:  center;
+    position: absolute;
+    z-index: -1;
+    
+
+}
 
 .tilt-card-container {
   perspective: 1000px;
   width: 100%;
   max-width: 380px;
   margin: 40px auto;
+  margin-top: 150px;
+  
 }
 
 
@@ -18,6 +32,7 @@
   backdrop-filter: blur(8px);
   transform-style: preserve-3d;
   transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+
 }
 
 
