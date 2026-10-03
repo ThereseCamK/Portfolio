@@ -1,5 +1,5 @@
 .home-page{
-    background-image: url("/public/images/woman_coding_gamingroom.png");
+    background-image: url("../public/images/woman_coding_gamingroom.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 55%;
