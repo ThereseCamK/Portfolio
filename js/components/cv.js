@@ -52,23 +52,29 @@ export function cv(){
                     <h3>Community Science Museum | <span class="weight-normal">Semester Project 1</span></h3>
                 </div>
                 <p>Responsive museum website built with HTML and CSS, focusing on semantic structure, accessibility and responsive layouts.</p>
-                <a href="#" class="cv-project-link">View project</a>
+                <a href="https://theresecamk.github.io/community-science-museum-sp/index.html" class="cv-project-link">View project</a>
             </div>
-
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <h3>Game Hub - HTML / CSS | <span class="weight-normal">Cross course project</span></h3>
+                </div>
+                <p>E-commerce project using HTML CSS- focusing on responsive design</p>
+                <a href="https://theresecamk.github.io/game-hub/" class="cv-project-link">View project</a>
+            </div>
             <div class="cv-item">
                 <div class="cv-item-header">
                     <h3>Game Hub - JavaScript | <span class="weight-normal">JavaScript 1</span></h3>
                 </div>
                 <p>E-commerce project using JavaScript, API integration and dynamically generated content.</p>
-                <a href="#" class="cv-project-link">View project</a>
+                <a href="https://theresecamk.github.io/game-hub-js/#/home" class="cv-project-link">View project</a>
             </div>
 
             <div class="cv-item">
                 <div class="cv-item-header">
-                    <h3>Cartify | <span class="weight-normal">E-commerce school project</span></h3>
+                    <h3>Cartify | <span class="weight-normal">E-commerce school exam project</span></h3>
                 </div>
                 <p>Online shopping application involving JavaScript, API integration, authentication and shopping cart functionality.</p>
-                <a href="#" class="cv-project-link">View project</a>
+                <a href="https://theresecamk.github.io/cartify/" class="cv-project-link">View project</a>
             </div>
         </section>
 
