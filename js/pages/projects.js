@@ -1,29 +1,37 @@
+import { projects } from "../data/projects.js";
+
 export default function Projects(){
-    return /*HTML */`
-    <h1>Projects</h1>
     
-    <section>
-        <div class="project-card">
-             <h2>Title: project 1</h2>
-            <p>description: ( 12- 20 words)</p>
-            <a>Link to live page</a>
-            <button class="btn-primary"> push me</button>
-        </div>
-
-        <div class="project-card">
-            <h2>Title: project 2</h2>
-            <p>description: ( 12- 20 words)</p>
-            <a>Link to live page</a>
-             <button class="btn-primary"> push me</button>
-        </div>
-
-        <div class="project-card">
-            <h2>Title: project 3</h2>
-            <p>description: ( 12- 20 words)</p>
-            <a>Link to live page</a>
-             <button class="btn-primary"> push me</button>
-        </div>
+   return /*HTML */`<section class="project-section">
+    <h1>My projects</h1>
+        <p>Some of mye project I have done. Most of them is Academic work. But feel fre to wisit my GitHub to explore more of my Repositories. 
+        Many of them is for my earlier work, and some personal project that I worked on to improve my skills, or explore options to work on. </p>
+        ${projects.map(project => drawProjectCard(project)).join("")}
+   </section>
+    
    
-    </section>
-    `
+    `;
+  
+    
+
+}
+
+function drawProjectCard(project){
+    return /*HTML */`
+         <div class="project-card">
+         <img src="${project.image}">
+            <h2>Title: ${project.title}</h2>
+            <h3>Category: ${project.category}</h3>
+            <p>description: ${project.description}</p>
+            <p>challenge: ${project.challenge}</p>
+            <p>solution: ${project.solution}</p>
+            <p>improvements: ${project.improvements}</p>
+            <div>
+                <a href="${project.livelink}" target="_blank">Live link</a>
+                <a href="${project.githubLink}" target="_blank">GitHub link</a>
+            </div>
+           
+            
+        </div>
+    `;
 }

@@ -1,7 +1,7 @@
 export const projects = [ 
     {
         id: 1,
-        image: '',
+        image: './public/images/gamehubDesign.png',
         title: "Game Hub - cross course Project",
         category: "HTML/CSS responsive focus - academic work",
         description: "An online game shop, built only with HTML and CSS.",
@@ -15,7 +15,7 @@ export const projects = [
 
     {
         id: 2,
-        image: '',
+        image: './public/images/museum.png',
         title: "Comunity Science Musem - semesterproject",
         category: "HTML/CSS - academic work",
         description: "An home page for Science Museum with exhibitions and events",
@@ -25,6 +25,19 @@ export const projects = [
         tags: ["CSS", "HTML"],
         livelink: "https://theresecamk.github.io/community-science-museum-sp/index.html",
         githubLink: "https://github.com/ThereseCamK/community-science-museum-sp",
+    },
+    {
+        id: 3,
+        image: './public/images/gamehub.png',
+        title: "Gamehub - javascript project",
+        category: "Javascript - academic work",
+        description: "An online game shop built with javascript and API",
+        challenge: "This was my first API fetch so it was a bit challenging.",
+        solution: "See other solutions how other people does it and try it my self in different ways. ",
+        improvements: "I would focued a bit more on the design. I am not that happy with the colours and design on this.",
+        tags: ["CSS", "HTML", "API", "Javascript"],
+        livelink: "https://theresecamk.github.io/game-hub-js/",
+        githubLink: "https://github.com/ThereseCamK/game-hub-js",
     },
 
     

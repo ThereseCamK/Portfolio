@@ -1,0 +1,30 @@
+.project-section{
+    margin-top: -350px;
+    padding: 10px;
+    
+}
+.project-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.2s ease;
+    max-width: 80%;
+    margin-bottom: 15px;
+}
+.project-card img{
+    max-height: 150px;
+    width: auto;
+    max-width: 100%;
+}
+.project-card a {
+    color: var(--accent);
+    
+}
+.project-card div {
+    display: flex;
+    flex-direction: column;
+}
+.project-card:hover {
+  background-color: var(--surface-hover);
+}

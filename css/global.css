@@ -39,17 +39,6 @@ p{
 
 
 
-.project-card {
-  background-color: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 20px;
-  transition: background-color 0.2s ease;
-}
-
-.project-card:hover {
-  background-color: var(--surface-hover);
-}
 
 
 .btn-primary {

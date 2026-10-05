@@ -10,9 +10,14 @@ export default function footer() {
         <h1>Therese Camilla Nordnes</h1>
         <h2>Frontend Developer</h2>
 
-        <h3>Contact me</h3>
+        <h3>Follow me</h3>
 
-        <p class="contact-intro">
+        <div class="some-wrapper">
+        
+        <a href="https://github.com/ThereseCamK">GitHub</a>
+        <a href="https://www.linkedin.com/in/therese-camilla-nordnes-3a223420b/">LinkedIn</a>
+      </div>
+        <p class="contact-info">
             Do you have questions, or want to work together please contact me👇
         </p>
 
@@ -50,11 +55,7 @@ export default function footer() {
         </p>
         <p id="form-status"></p>
 
-      <div class="some-wrapper">
-        <h4>Sosial media:</h4>
-        <a href="https://github.com/ThereseCamK">GitHub</a>
-        <a href="https://www.linkedin.com/in/therese-camilla-nordnes-3a223420b/">LinkedIn</a>
-      </div>
+    
 
     </div>
 
@@ -68,6 +69,9 @@ export default function footer() {
 
 `;
 }
+
+    
+    
 
 export function initSendMail(){
     

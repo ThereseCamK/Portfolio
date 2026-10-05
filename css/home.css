@@ -13,7 +13,7 @@
 
 .tilt-card-container {
   perspective: 1000px;
-  width: 100%;
+  width: 90%;
   max-width: 380px;
   margin: 40px auto;
   margin-top: 150px;
@@ -79,6 +79,7 @@
 .tilt-card h2 {
   margin: 0 0 10px 0;
   color: var(--text-primary);
+  font-size: 1.25rem;
 }
 
 .tilt-card p {
@@ -89,8 +90,9 @@
 
 .tech-tags {
   display: flex;
-  gap: 8px;
+  gap: 2px;
   margin-top: 20px;
+  margin-left: -15px;
 }
 
 .tech-tags span {

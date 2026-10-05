@@ -1,6 +1,4 @@
-const basePath = window.location.hostname.includes("github.io") 
-    ? "/Portfolio"
-    : "";
+
 
     import routes from "./routes.js";
     import { initSendMail } from "../components/footer.js";
@@ -14,11 +12,9 @@ const basePath = window.location.hostname.includes("github.io")
 
     function router()  {
 
-        let path = window.location.pathname;
+        let path = window.location.hash.replace("#", "");
 
-        if(path.startsWith(basePath)){
-            path = path.replace(basePath, "");
-        }
+        
         if(path === "" || path === "/index.html"){
             path = "/";
         }
@@ -38,11 +34,8 @@ const basePath = window.location.hostname.includes("github.io")
     }
 
     function navigateTo(url){
-        const fullUrl = basePath + url;
+       window.location.hash = url;
 
-        history.pushState(null, null, fullUrl);
-
-        router();
     }
 
     export function initRouter(){
@@ -51,11 +44,12 @@ const basePath = window.location.hostname.includes("github.io")
 
             if(link){
                 e.preventDefault();
-                navigateTo(link.pathname);
+                const targetUrl = link.getAttribute("href").replace("#", "");
+                navigateTo(targetUrl);
             }
         });
 
-        window.addEventListener("popstate", router);
+        window.addEventListener("hashchange", router);
         document.addEventListener("DOMContentLoaded", router);
         
     }
