@@ -2,7 +2,8 @@
 
     import routes from "./routes.js";
     import { initSendMail } from "../components/footer.js";
-    
+  
+
     const notFound = () => /*HTML */ `
         <div>
             <h1>404 - Page not found</h1>
@@ -26,7 +27,7 @@
         document.querySelector("#mainContent").innerHTML = view();
 
         initSendMail();
-
+     
         if(route && route.init){
             route.init();
         }

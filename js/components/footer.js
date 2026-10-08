@@ -1,5 +1,5 @@
 export default function footer() {
-  return `
+  return /*HTML */`
 
 <footer class="footer">
     <div class="footer-logo">
@@ -7,56 +7,61 @@ export default function footer() {
     </div>
   <div>
     <div class="footer-wrapper">
-        <h1>Therese Camilla Nordnes</h1>
-        <h2>Frontend Developer</h2>
+        <div class="info-grid">
+            <h1>Therese Camilla Nordnes</h1>
+            <h2>Frontend Developer</h2>
+        </div>
+       
 
-        <h3>Follow me</h3>
-
-        <div class="some-wrapper">
+        <div class="some-grid">
+            <h3>Follow me</h3>
+            <div class="some-wrapper">
+            
+                <a href="https://github.com/ThereseCamK">GitHub</a>
+                <a href="https://www.linkedin.com/in/therese-camilla-nordnes-3a223420b/">LinkedIn</a>
+            </div>
+        </div>
         
-        <a href="https://github.com/ThereseCamK">GitHub</a>
-        <a href="https://www.linkedin.com/in/therese-camilla-nordnes-3a223420b/">LinkedIn</a>
-      </div>
-        <p class="contact-info">
-            Do you have questions, or want to work together please contact me👇
-        </p>
 
-        <form id="contact-form" class="contact-form">
+        <div class="contact-grid">
+             <p class="contact-info">
+                Do you have questions, or want to work together please contact me👇
+            </p>
 
-            <input 
-                type="text" 
-                name="name" 
-                placeholder="Name" 
-                required
-            >
+            <form id="contact-form" class="contact-form">
 
-            <input 
-                type="email" 
-                name="email" 
-                placeholder="Email" 
-                required
-            >
+                <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Name" 
+                    required
+                >
 
-            <textarea 
-                name="message" 
-                placeholder="Message"
-                required
-            ></textarea>
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Email" 
+                    required
+                >
 
-            <button type="submit">Send</button>
+                <textarea 
+                    name="message" 
+                    placeholder="Message"
+                    required
+                ></textarea>
 
-        </form>
+                <button type="submit">Send</button>
 
-        <p>
-            Send me a direct mail:  
-            <a class="footer-mail" href="mailto:theresecnord@gmail.com">
-            theresecnord@gmail.com
-            </a>
-        </p>
-        <p id="form-status"></p>
+            </form>
 
-    
-
+            <p>
+                Send me a direct mail:  
+                <a class="footer-mail" href="mailto:theresecnord@gmail.com">
+                theresecnord@gmail.com
+                </a>
+            </p>
+            <p id="form-status"></p>
+        </div>
     </div>
 
   

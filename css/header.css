@@ -22,7 +22,32 @@
 }
 
 .nav-links a:hover {
-    border: 1px solid var(--background);
+    border: 1px solid var(--accent);
     border-radius: 10px;
     
+}
+
+@media (min-width: 650px) {
+    .nav-links{
+        left: 45%;
+        gap: 50px;
+        top: 70px;
+    }
+}
+@media (min-width: 900px) {
+    .nav-links{
+        left: 55%;
+        gap: 80px;
+        
+    }
+    .logo img{
+        height: 200px;
+        width: auto;
+    }
+}@media (min-width: 1250px) {
+    .nav-links{
+        left: 65%;
+        gap: 100px;
+        
+    }
 }

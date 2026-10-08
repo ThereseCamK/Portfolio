@@ -1,14 +1,11 @@
 .home-page{
+    padding: 5%;
     background-image: url("../public/images/woman_coding_gamingroom.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 55%;
-    min-width: 100%;
-    background-position:  center;
-    position: absolute;
+    max-width: 100%;
+    background-position:  top;
     z-index: -1;
-    
-
 }
 
 .tilt-card-container {
@@ -102,4 +99,28 @@
   border-radius: 6px;
   font-size: 0.8rem;
   color: var(--text-secondary);
+}
+
+
+@media (min-width: 900px) {
+  .home-page{
+    
+    width: 45%;
+    
+  }
+
+
+  .tilt-card-container {
+    
+    margin: 40px auto;
+    position: relative;
+    left:110%;
+    max-width: 100%;
+  }
+  .tech-tags {
+   
+    gap: 10px;
+    margin-left: 0px;
+  }
+
 }
