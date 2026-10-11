@@ -6,7 +6,7 @@ export default function About(){
 
         <div class="about-top-section">
             <div class="profile-picture">
-                <img src="../public/images/therese-profile.png" alt="Therese Camilla Nordnes">
+                <img src="./public/images/therese-profile.png" alt="Therese Camilla Nordnes">
             </div>
             <div class="about-me-section">
                 <h1>Therese Camilla Nordnes</h1>
