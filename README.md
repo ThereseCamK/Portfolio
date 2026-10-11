@@ -1,52 +1,69 @@
 # Portfolio
 
-Portfolio er en personlig nett side tilpasset for meg. hvor du kan lese mer om meg og min bakgrunn, mine tidligere prosjekter, se og laste ned cv og cover letter ta kontakt via kontaktskjema i footer- der sendes det direkte til meg. du kan klikke deg inn på min github side eller min likedin. 
+This is my personal portfolio website, created to showcase my background, experience, and previous projects as a frontend developer.
 
-denne portfolioen er laget som ett av prosjektene fra noroff. men kommer til å bli brukt som min personlig hjemme side etterhvert. 
+Visitors can learn more about me, explore my projects, view and download my CV and cover letter, and contact me directly through the contact form in the footer. The website also includes links to my GitHub and LinkedIn profiles.
+
+This portfolio was originally created as part of my Front-End Development studies at Noroff. However, I plan to continue developing and using it as my personal website in the future. 
 
 ## Live Site
 
-[https://theresecamk.github.io/Portfolio/#/]- View Live Site
-[https://github.com/ThereseCamK/Portfolio]- View Live Site
+[View Live Site](https://theresecamk.github.io/Portfolio/#/)
+[View Code on GitHub](https://github.com/ThereseCamK/Portfolio)
 
 ## About the Project
 
-Min portfolio er designet for å appelere til bedrifter eller personer som ønsker å lese mer om meg som utvikler. Den skal gjøre det lett å finne ut om meg, lett å se og laste ned CV, Cover Letter. Det skal gjøre det lett for å ta kontakt med meg på ulike plattformer og se hva slags prosjekter jeg har jobbet med og hva slags teknologier jeg er kjent med.  
+My portfolio is designed for companies, potential employers, and individuals who want to learn more about me as a developer.
 
-Den skal være lett å navigere seg rundt i og finne frem til det du trenger å vite. 
+The goal is to make it easy for visitors to find information about my background, experience, and technical skills. Visitors can explore my previous projects, view or download my CV and cover letter, and contact me through different platforms.
 
+I wanted the website to be easy to navigate, with a clear structure that helps visitors find the information they are looking for.
 
-Nettsiden er responsive og designet til å fungere både på mobil, nettbrett og desktop. 
+I have stored my projects in a separate JavaScript data file and use the map() method to dynamically generate the project cards. This makes it easier to add new projects in the future and avoids repeating the same HTML code.
+
+The website is responsive and designed to work on mobile devices, tablets, and desktop screens.
 
 ## Features
 
 ### Homepage
 
-Innbydende
-Lese kort introduksjon om meg
-Se raskt hva slags teknologier jeg kan.
-Kort som følger musen på desktop
+A welcoming homepage with a short introduction about me.
 
-### Aboutpage
+A quick overview of the technologies I work with.
 
-Lett finne hvor du kan kontakte meg
-Lese om meg og min bakgrunn og erfaring
-mine kjerne prinsipper
-Åpne CV eller Cover letter på devicen du er på
-Laste ned CV og Cover letter.
+An interactive card with a mouse-following tilt effect on desktop.
 
+### About Page
 
-### Projects
+Easy access to my contact information and social profiles.
 
-Se lite bilde av tidligere prosjekter
-Leste litt mer om de forskjellige prosjektene og hva som var vanskelig, løsning og hva ejg ville gjort anderledes og hva slags teknologier som er brukt på de forskjellige
-Åpne Live link i ny fane
-Åpne koden på github i ny fane
+Information about my background, experience, and core principles.
+
+An overview of the technologies I am familiar with.
+
+Options to view my CV and cover letter directly on the website.
+
+Downloadable PDF versions of my CV and cover letter.
+
+### Projects Page
+
+Preview images of my previous projects.
+
+Information about each project, including challenges, solutions, possible improvements, and technologies used.
+
+Links to the live websites, opening in a new tab.
+
+Links to the GitHub repositories, opening in a new tab.
 
 ### Footer
 
-Sende dirkete mail til meg via kontakt skjema ved å fylle ut mail, navn og melding. 
-får tilbakemelding om det ble sendt eller om det oppstod noe feil.
+A contact form where visitors can enter their name, email address, and message.
+
+Messages are sent directly to my email using EmailJS.
+
+Feedback messages confirm whether the email was sent successfully or if an error occurred.
+
+Links to my GitHub and LinkedIn profiles.
 
 ## Built With
 
@@ -59,7 +76,9 @@ Github Pages
 
 ## Design
 
-var inspirert av en tidligere nettside jeg laget for meg selv. [https://theresecamilla.no/] theresecamilla.no
+The design was inspired by a previous personal website I created: [theresecamilla.no](https://theresecamilla.no/) 
+
+I used my earlier website as inspiration while creating a new portfolio that meets the requirements of this project.
 
 ## Getting started
 
@@ -75,12 +94,12 @@ No additional dependecies or installation steps are required.
 
 ## AI usage
 
-AI tools were used during the development process in accordance with course guidelines.
+AI tools were used during the development process in accordance with the course guidelines.
 
-see AI_Logg.md for documentation.
+See [AI_LOG.md](./AI_LOG.md) for documentation of AI usage.
 
 ## Author
 
 Therese Camilla Nordnes
-
+[Github ](https://github.com/ThereseCamK)
 
