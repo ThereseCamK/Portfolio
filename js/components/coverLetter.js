@@ -16,8 +16,8 @@ export function coverLetter(){
                 
                 <div class="cv-links">
                     <a href="https://theresecamilla.no" target="_blank">theresecamilla.no</a> | 
-                    <a href="https://github.com" target="_blank">github.com/ThereseCamK</a> | 
-                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/ThereseCamK" target="_blank">github.com/ThereseCamK</a> | 
+                    <a href="https://www.linkedin.com/in/therese-camilla-nordnes-3a223420b/" target="_blank">LinkedIn</a>
                 </div>
             </header>
 

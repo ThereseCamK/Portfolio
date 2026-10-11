@@ -6,7 +6,7 @@ export default function About(){
 
         <div class="about-top-section">
             <div class="profile-picture">
-                <img src="../public/images/profile_picture.png" alt="Therese Camilla Nordnes">
+                <img src="../public/images/therese-profile.png" alt="Therese Camilla Nordnes">
             </div>
             <div class="about-me-section">
                 <h1>Therese Camilla Nordnes</h1>
@@ -71,26 +71,24 @@ export default function About(){
                 Interested in working together? You can view my curriculum vitae and cover letter directly in your browser, or download them for later.
             </p>
             <div class="doc-box">
-                    <button id="open-cv-modal" class="btn-view">Curriculum Vitae</button>
-                    <a href="./public/docs/Therese_Camilla_Nordnes_CV.pdf" download class="btn-download">Download CV</a>
-                </div>
+                <button id="open-cv-modal" class="btn-view">Curriculum Vitae</button>
+                <a href="./public/docs/Therese_Camilla_Nordnes_CV.pdf" download class="btn-download">Download CV</a>
+            </div>
 
             <div class="doc-box">
                 <button id="open-letter-modal" class="btn-view">Cover Letter</button>
                 <a href="./public/docs/Therese_Camilla_Nordnes_Cover_Letter.pdf" download class="btn-download">Download Letter</a>
             </div>
-            </div>
+        </div>
 
 
-            <div id="doc-modal" class="modal-overlay hidden">
+        <dialog id="doc-modal" >
             <div class="modal-content">
                 <button id="close-modal" class="btn-close">&times;</button>
-                <div id="modal-body">
-
-                </div>
+                <div id="modal-body"></div>
             </div>
-        </div>
-    <section>
+        </dialog>
+    </section>
     `
 }
 
@@ -110,21 +108,21 @@ export function initAboutPage() {
 
   openCvBtn.addEventListener("click", () => {
     modalBody.innerHTML = cvContent;
-    modal.classList.remove("hidden");
+    modal.showModal();
   });
 
   openLetterBtn.addEventListener("click", () => {
     modalBody.innerHTML = letterContent;
-    modal.classList.remove("hidden");
+    modal.showModal();
   });
 
   closeBtn.addEventListener("click", () => {
-    modal.classList.add("hidden");
+    modal.close()
   });
 
   modal.addEventListener("click", (e) => {
     if (e.target === modal) {
-      modal.classList.add("hidden");
+      modal.close();
     }
   });
 }

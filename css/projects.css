@@ -24,7 +24,7 @@
 .project-card img{
     max-height: 150px;
     width: auto;
-    max-width:
+    max-width: 100%;
 }
 .project-card a {
     color: var(--accent);

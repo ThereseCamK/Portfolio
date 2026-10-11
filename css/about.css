@@ -22,6 +22,7 @@
 .profile-picture img{
     height: 150px;
     width: auto;
+    border-radius: 50%;
 }
 .profile-info li{
     list-style: none;

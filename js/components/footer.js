@@ -29,21 +29,21 @@ export default function footer() {
             </p>
 
             <form id="contact-form" class="contact-form">
-
+                <label>Name</label>
                 <input 
                     type="text" 
                     name="name" 
                     placeholder="Name" 
                     required
                 >
-
+                <label>Email</label>
                 <input 
                     type="email" 
                     name="email" 
                     placeholder="Email" 
                     required
                 >
-
+                <label>Message</label>
                 <textarea 
                     name="message" 
                     placeholder="Message"
@@ -100,7 +100,7 @@ export function initSendMail(){
             status.style.color = "green";
             form.reset();
         }, (error) => {
-            status.textContent = "Something wnet wrong, please try again!";
+            status.textContent = "Something went wrong, please try again!";
             status.style.color = "red";
         });
     });

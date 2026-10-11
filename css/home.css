@@ -1,6 +1,6 @@
 .home-page{
     padding: 5%;
-    background-image: url("../public/images/woman_coding_gamingroom.png");
+    background-image: url("../public/images/working.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -87,9 +87,14 @@
 
 .tech-tags {
   display: flex;
-  gap: 2px;
+  gap: 2%;
   margin-top: 20px;
   margin-left: -15px;
+  overflow: scroll;
+  
+}
+.tech-tags::-webkit-scrollbar{
+  display: none;
 }
 
 .tech-tags span {
@@ -99,6 +104,7 @@
   border-radius: 6px;
   font-size: 0.8rem;
   color: var(--text-secondary);
+  
 }
 
 
